@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.65));
+}
+
+header {
+    margin: auto;
+    height: 14vh;
+    width: 90vmax;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6vmax;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+h1 span {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right,pink,  rgb(85, 85, 230));
+}
+
+.container {
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+textarea {
+    margin: 3rem 0 1rem 0;
+    width: 100%;
+    height: 150px;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border-radius: 1.25rem;
+    outline: none;
+    border: 1.5px inset #ccc;
+    transition: all 350ms 0ms ease-in-out;
+}
+
+textarea:focus {
+    box-shadow: -6px 12px 4rem rgba(85, 85, 230, 0.65);
+    transform: translate(2px, -8px);
+}
+
+.char-counter {
+    text-align: right;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+#generate-btn {
+    margin-right: 1rem;
+    padding: 14px 18px;
+    background: transparent;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 2rem;
+    border: 2px solid rgb(98, 98, 230);
+}
+
+#generate-btn:hover {
+    border: none;
+    background-image: linear-gradient(to right, rgb(98, 98, 230), rgb(97, 0, 97));
+}
+
+#post-btn {
+    padding: 14px 18px;
+    background-color: #161616;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+#post-btn:disabled {
+    padding: 14px 18px;
+    background-color: #161616;
+    color: #ffffff93;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+

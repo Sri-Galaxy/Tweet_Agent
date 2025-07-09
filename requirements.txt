@@ -1,0 +1,11 @@
+agno
+python-dotenv
+duckduckgo-search
+packaging
+fastapi
+groq
+uvicorn
+google-generativeai
+tweepy
+flask
+flask_cors
